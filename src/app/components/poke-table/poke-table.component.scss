@@ -1,0 +1,28 @@
+
+.container{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+table{
+    min-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.resal:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 5px red;
+}
+
+th{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+td::first-letter{
+    text-transform: uppercase;
+}
+

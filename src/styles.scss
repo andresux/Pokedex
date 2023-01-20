@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./assets/styles/variables.scss";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: $black;}
+.mat-row:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 5px gray;
+}
+
